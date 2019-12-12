@@ -1,2 +1,1 @@
-# install_chirpstack_on_ubuntu
-Automated script for installing ChirpStack LoRaWAN Server on Ubuntu
+# install_loraserver_on_ubuntu

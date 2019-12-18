@@ -1,1 +1,1 @@
-# install_loraserver_on_ubuntu
+# install_chirpstack_on_ubuntu

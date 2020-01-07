@@ -34,9 +34,9 @@ rm -f /tmp/init_sql.sql
 
 rm *.deb -f
 #3.2 download chirpstack packages
-wget https://artifacts.chirpstack.io/packages/3.x/deb/pool/main/c/chirpstack-application-server/chirpstack-application-server_3.6.1_linux_amd64.deb
-wget https://artifacts.chirpstack.io/packages/3.x/deb/pool/main/c/chirpstack-gateway-bridge/chirpstack-gateway-bridge_3.5.0_linux_amd64.deb
-wget https://artifacts.chirpstack.io/packages/3.x/deb/pool/main/c/chirpstack-network-server/chirpstack-network-server_3.6.0_linux_amd64.deb
+wget https://artifacts.chirpstack.io/downloads/chirpstack-application-server/chirpstack-application-server_3.6.1_linux_amd64.deb
+wget https://artifacts.chirpstack.io/downloads/chirpstack-gateway-bridge/chirpstack-gateway-bridge_3.5.0_linux_amd64.deb
+wget https://artifacts.chirpstack.io/downloads/chirpstack-network-server/chirpstack-network-server_3.6.0_linux_amd64.deb
 
 #3.3 install chirpstack packages
 dpkg -i chirpstack-application-server_3.6.1_linux_amd64.deb
